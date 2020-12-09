@@ -16,4 +16,9 @@ console.log(sum); // retorna apenas os números pares
 var filter = arr.filter(function (item) {
   return item % 2 === 0;
 });
-console.log(filter);
+console.log(filter); // verifica e retorna um item especifico dentro do array
+
+var find = arr.find(function (item) {
+  return item === 2;
+});
+console.log(find);

@@ -21,3 +21,10 @@ const filter = arr.filter(function(item) {
 })
 
 console.log(filter);
+
+// verifica e retorna um item especifico dentro do array
+const find = arr.find(function(item) {
+    return item === 2;
+})
+
+console.log(find);
